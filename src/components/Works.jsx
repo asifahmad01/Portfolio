@@ -39,7 +39,7 @@ const ProjectCard = ({
               <img
                 src={demo}
                 alt="source code"
-                className="w-40 h-40 object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
