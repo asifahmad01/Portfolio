@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { Tilt } from "react-tilt";
-import { demo, github } from "../assets";
+import { demo } from "../assets";
 
 const ProjectCard = ({
   index,

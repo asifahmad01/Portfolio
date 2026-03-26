@@ -10,6 +10,15 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
-    'react-refresh/only-export-components': 'warn',
+    'react-refresh/only-export-components': 'off',
+    'react/prop-types': 'off',
   },
+  overrides: [
+    {
+      files: ['src/components/canvas/**/*.jsx'],
+      rules: {
+        'react/no-unknown-property': 'off',
+      },
+    },
+  ],
 }
