@@ -24,7 +24,7 @@
 
 A modern, interactive **3D portfolio** built with React, Three.js, and Framer Motion — showcasing my work as a Python Full-Stack Developer and Generative AI Engineer.
 
-**Live:** [portfolio-asifahmad.vercel.app](https://portfolio-asifahmad.vercel.app)
+**Live:** [portfolio-asifahmad.vercel.app](https://portfolio-mdasifanjum.vercel.app/)
 
 ---
 
