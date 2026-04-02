@@ -24,6 +24,7 @@ import {
   profanity,
   chatwithpdf,
   githubSocial,
+  tripguide,
 } from "../assets";
 
 export const navLinks = [
@@ -215,6 +216,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Job Hunter Bot",
+    description:
+      "AI-powered job application automation tool that searches and applies to Python/FastAPI/React/GenAI roles across Naukri, LinkedIn, Wellfound, Indeed, and Glassdoor. Uses Claude AI for form filling, skill-based filtering, a FastAPI backend, React dashboard, and WebSocket live logs.",
+    tags: [
+      {
+        name: "python/fastapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "claude-ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "playwright",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/asifahmad01/job-hunter",
+  },
   {
     name: "HRMS Lite",
     description:
