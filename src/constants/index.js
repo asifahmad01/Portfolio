@@ -165,6 +165,21 @@ const experiences = [
     ],
   },
   {
+    title: "Software Development Engineer (Python)",
+    company_name: "Robomanthan Pvt. Ltd.",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Dec 2023 – Oct 2024",
+    points: [
+      "Built scalable backend services using Python (FastAPI), designing REST APIs for data processing, user workflows, and system integrations.",
+      "Developed and maintained React.js-based dashboards for internal tools, improving data visibility and user interaction.",
+      "Designed and optimized database schemas using PostgreSQL, ensuring efficient query performance and data consistency.",
+      "Containerized applications using Docker and managed deployments on AWS EC2, enabling reliable and repeatable production environments.",
+      "Integrated third-party APIs and implemented authentication mechanisms using JWT-based security.",
+      "Improved system performance by optimizing API response times and reducing server load through async processing in FastAPI.",
+    ],
+  },
+  {
     title: "Software Developer (GenAI)",
     company_name: "TwinHome",
     icon: shopify,
