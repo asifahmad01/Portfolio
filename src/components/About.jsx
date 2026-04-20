@@ -57,7 +57,7 @@ const About = () => {
 
       <div className="mt-6">
         <a
-          href="https://drive.google.com/file/d/1rqmYdVVK1vY9H1vpmPfHTxgwBy9lV3uq/view?usp=sharing"
+          href="https://drive.google.com/file/d/1B7P9z9Oq0b9etS6_U3zNPeBfLau_XVpS/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#915eff] hover:bg-[#7d4edb] text-white font-semibold text-[16px] shadow-lg hover:shadow-[#915eff]/40 transition-all duration-300 hover:scale-105"
