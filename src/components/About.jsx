@@ -49,15 +49,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Python Full-Stack Developer with hands-on experience building production-grade systems using FastAPI, PostgreSQL,
-        React.js/Next.js, and TypeScript. Skilled in designing async REST APIs, RBAC workflows, and deploying
-        services with Docker &amp; Kubernetes on AWS. Passionate about Generative AI — integrating OpenAI and LangChain
-        to build intelligent, real-world applications. Let&apos;s build something impactful together!
+        Backend-focused Full Stack Developer with 3+ years of experience building production applications using
+        Python, FastAPI, PostgreSQL, React.js/Next.js, and TypeScript. Experienced in designing REST APIs,
+        microservices, relational databases, authentication and authorization systems, and end-to-end application
+        workflows. Hands-on with Docker, Kubernetes, AWS EC2, Keycloak/RBAC, and Generative AI — LangChain, RAG, and
+        OpenAI. Familiar with Django, system design, Linux/Nginx, and networking fundamentals.
       </motion.p>
 
       <div className="mt-6">
         <a
-          href="https://drive.google.com/file/d/1B7P9z9Oq0b9etS6_U3zNPeBfLau_XVpS/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1Jp-Eu6cqjKCZROiEWmaY2PiMCz3glya6/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#915eff] hover:bg-[#7d4edb] text-white font-semibold text-[16px] shadow-lg hover:shadow-[#915eff]/40 transition-all duration-300 hover:scale-105"
@@ -75,6 +76,20 @@ const About = () => {
           Download Resume
         </a>
       </div>
+
+      <motion.div
+        variants={fadeIn("up", "spring", 0.15, 0.75)}
+        className="mt-10 p-6 rounded-2xl bg-tertiary border border-white/5 max-w-3xl"
+      >
+        <h3 className="text-white font-bold text-[20px]">Education</h3>
+        <p className="mt-2 text-secondary text-[16px] leading-[28px]">
+          <span className="text-white font-semibold">B.Tech, Computer Engineering</span>
+          {" — "}
+          Jamia Millia Islamia University, New Delhi (2019 – 2023)
+          {" · "}
+          <span className="text-[#915eff] font-semibold">7.53 CGPA</span>
+        </p>
+      </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

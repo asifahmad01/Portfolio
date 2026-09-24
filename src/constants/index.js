@@ -61,20 +61,56 @@ let socialMedia = [
 
 const services = [
   {
-    title: "Python & FastAPI Backend",
+    title: "Backend & REST APIs",
     icon: backend,
   },
   {
-    title: "React.js / Next.js Frontend",
+    title: "React.js / Next.js / TypeScript",
     icon: web,
   },
   {
-    title: "Generative AI & LangChain",
+    title: "Generative AI (LangChain, RAG)",
     icon: mobile,
   },
   {
     title: "DevOps & Cloud (Docker, K8s, AWS)",
     icon: creator,
+  },
+];
+
+const skillCategories = [
+  {
+    title: "Backend & APIs",
+    skills:
+      "Python, FastAPI, Flask, Django (working knowledge), Node.js, Express.js, SQLAlchemy, Alembic, REST APIs, JWT, Keycloak",
+  },
+  {
+    title: "Frontend",
+    skills:
+      "React.js, Next.js, TypeScript, JavaScript (ES6+), HTML, CSS, Material UI",
+  },
+  {
+    title: "Databases",
+    skills:
+      "PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, ChromaDB",
+  },
+  {
+    title: "Architecture",
+    skills:
+      "Microservices, system design, scalability, API design, async programming, database design, performance optimization, RBAC",
+  },
+  {
+    title: "Generative AI",
+    skills:
+      "OpenAI API, LangChain, RAG, vector embeddings, similarity search, prompt engineering",
+  },
+  {
+    title: "DevOps & Cloud",
+    skills: "Docker, Kubernetes, AWS EC2, Linux, Nginx",
+  },
+  {
+    title: "Developer Tools",
+    skills: "Git, GitHub, Postman, Cursor, Claude Code, OpenAI Codex",
   },
 ];
 
@@ -132,73 +168,49 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
-    company_name: "Nucelux Pvt. Ltd.",
+    company_name: "Nucelux Pvt. Ltd. · Bengaluru",
     icon: meta,
     iconBg: "#383E56",
     date: "Nov 2025 – Present",
     points: [
-      "Architected a production-grade HRMS & Finance platform using FastAPI, delivering 150+ async REST APIs and designing 50+ PostgreSQL tables for payroll, attendance, and approval workflows.",
-      "Implemented a position-based approval engine with multi-step workflows, audit trails, and RBAC (25+ permissions) using Keycloak (JWT).",
-      "Developed 100+ frontend components using React, TypeScript, and Material UI; deployed services using Docker & Kubernetes.",
+      "Built and scaled a production-grade HRMS & Payroll platform using Python, FastAPI, SQLAlchemy, PostgreSQL, Alembic, React, TypeScript, and Material UI — 150+ async REST APIs and 50+ database tables across payroll, attendance, employee lifecycle, and approval workflows.",
+      "Implemented Keycloak/JWT-based RBAC with 25+ permissions, position-based approval workflows, and audit trails; developed 100+ role-aware React/TypeScript components for secure workflow-driven experiences.",
+      "Containerized services with Docker, supported Kubernetes deployments, and worked across API, database, frontend, authentication, and production troubleshooting for end-to-end feature delivery.",
     ],
   },
   {
     title: "Frontend Development Associate & Trainer",
-    company_name: "MyAnatomy Integration",
+    company_name: "MyAnatomy · Noida",
     icon: starbucks,
     iconBg: "#E6DEDD",
     date: "Apr 2025 – Oct 2025",
     points: [
-      "Developed full-stack applications using MongoDB, Express.js, React.js/Next.js, and Node.js; followed Git-based workflows and supported deployments on AWS.",
-      "Trained and mentored student teams on real-world full-stack development projects.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "Dhurina Venture Pvt Ltd",
-    icon: tesla,
-    iconBg: "#383E56",
-    date: "Nov 2024 – Feb 2025",
-    points: [
-      "Built scalable RESTful APIs using Node.js, Express.js, and MongoDB for efficient data operations.",
-      "Developed responsive user interfaces using React, Tailwind CSS, and Bootstrap.",
+      "Developed full-stack application modules using MongoDB, Express.js, React.js/Next.js, and Node.js, integrating REST APIs and supporting Git-based development and deployments on AWS.",
+      "Delivered backend and full-stack development training to 1500+ engineering students, covering REST API development, databases, application architecture, and deployment fundamentals.",
     ],
   },
   {
     title: "Software Development Engineer (Python)",
-    company_name: "Robomanthan Pvt. Ltd.",
+    company_name: "Robomanthan · Remote",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Dec 2023 – Oct 2024",
+    date: "Jan 2024 – Feb 2025",
     points: [
-      "Built scalable backend services using Python (FastAPI), designing REST APIs for data processing, user workflows, and system integrations.",
-      "Developed and maintained React.js-based dashboards for internal tools, improving data visibility and user interaction.",
-      "Designed and optimized database schemas using PostgreSQL, ensuring efficient query performance and data consistency.",
-      "Containerized applications using Docker and managed deployments on AWS EC2, enabling reliable and repeatable production environments.",
-      "Integrated third-party APIs and implemented authentication mechanisms using JWT-based security.",
-      "Improved system performance by optimizing API response times and reducing server load through async processing in FastAPI.",
+      "Built backend systems using Python, FastAPI, PostgreSQL, and SQLAlchemy — REST APIs, business workflows, authentication, and third-party integrations.",
+      "Worked on backend architecture, database design, scalability, and production troubleshooting across application, server, and network layers.",
+      "Used Docker, Linux, and deployment environments for service configuration, application setup, and production support.",
+      "Used Cursor and AI-assisted development for rapid development, debugging, and refactoring; integrated React.js interfaces with backend APIs.",
     ],
   },
   {
     title: "Software Developer (GenAI)",
-    company_name: "TwinHome",
-    icon: shopify,
+    company_name: "TwinHome · Noida",
+    icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jun 2023 – Dec 2023",
     points: [
-      "Designed and developed an AI-powered chatbot using Node.js and Express.js, integrating OpenAI's ChatGPT via LangChain.",
-      "Integrated the chatbot with WhatsApp Business API using Python & Flask; stored conversation data in MongoDB and deployed on AWS EC2.",
-    ],
-  },
-  {
-    title: "Full Stack Developer Intern",
-    company_name: "SimplifyNote",
-    icon: tesla,
-    iconBg: "#383E56",
-    date: "Nov 2022 – Dec 2022",
-    points: [
-      "Built an automated note-taking Chrome Extension using React.js and JavaScript.",
-      "Developed dashboards using React and MongoDB, and integrated secure payments via Stripe API.",
+      "Developed an AI-powered chatbot backend using Node.js, Express.js, OpenAI, LangChain, and RAG; integrated WhatsApp API workflows using Python & Flask for context-aware conversations.",
+      "Built an AI interview assistant using Whisper AI and OpenAI for transcription and resume-based answer evaluation, with MongoDB persistence and deployment on AWS EC2.",
     ],
   },
 ];
@@ -231,6 +243,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "AI Chat Application",
+    description:
+      "RAG-based chatbot using Flask, LangChain, OpenAI API, OpenAI Embeddings, and ChromaDB; extended with a React + Node.js/Express application layer, JWT authentication, and persistent conversations in MongoDB.",
+    tags: [
+      {
+        name: "langchain/rag",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flask+chromadb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react+mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatwithpdf,
+    source_code_link: "https://github.com/asifahmad01/Ai-chatbot-webapplication",
+  },
   {
     name: "Job Hunter Bot",
     description:
@@ -295,27 +328,6 @@ const projects = [
     source_code_link: "https://github.com/asifahmad01/cybership-carrier-integration",
   },
   {
-    name: "AI Chatbot Web Application",
-    description:
-      "Full-stack AI chat system with a React.js frontend, Node.js + Express backend, and a Flask-based AI service using LangChain and OpenAI API. Implements JWT authentication, real-time messaging, and persistent chat storage using MongoDB. Also integrated with WhatsApp Business API.",
-    tags: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "langchain",
-        color: "green-text-gradient",
-      },
-      {
-        name: "openai",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chatwithpdf,
-    source_code_link: "https://github.com/asifahmad01/Ai-chatbot-webapplication",
-  },
-  {
     name: "InnoStay – Hotel Management App",
     description:
       "Full MERN stack hotel management application with CRUD-driven backend, responsive React frontend, JWT authentication, and Docker support. Handles room bookings, guest management, and billing workflows.",
@@ -361,6 +373,7 @@ const projects = [
 
 export {
   services,
+  skillCategories,
   technologies,
   experiences,
   testimonials,

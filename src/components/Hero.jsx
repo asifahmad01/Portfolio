@@ -18,8 +18,8 @@ const Hero = () => {
               Hi , I&apos;m <span className="text-[#915eff]">Md Asif Anjum</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              Python Full-Stack Developer & AI Engineer <br className="sm:block hidden" />
-              Building scalable systems with FastAPI, React, and Generative AI.
+              Backend-focused Full Stack Developer · 3+ years <br className="sm:block hidden" />
+              Python, FastAPI, PostgreSQL, React/Next.js, TypeScript & Generative AI.
             </p>
           </div>
         </div>
